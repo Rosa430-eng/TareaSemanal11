@@ -47,6 +47,8 @@ class Mascota:
             data["dueno"],
             data["estado"]
         )
+        
     def __str__(self):
 
         return f"ID:{self._id} | {self._nombre} ({self._especie}) | Dueño: {self._dueno} | Estado: {self._estado}"
+
